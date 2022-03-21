@@ -2,7 +2,9 @@
 #include <string.h>
 
 
-//이 프로그램은 alphabet input 길이 3이하에서만 작동함
+//이 프로그램 테스트 필요
+    //테스트 예정 
+    
 
 int read_line(char str[],int n){
     
