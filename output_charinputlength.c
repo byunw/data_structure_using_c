@@ -21,9 +21,12 @@ int read_line(char str[],int n){
       if(i<n)
          //인풋을 의미하는 이진수 값을 ch에서 어레이로 복사 
          str[i++]=ch;
-         
-      //인풋길이 반환    
-      return i;
+     
+     //input의미하는 이진수 저장하고 있는 바이트의 바로 다음 바이트에 '\0' 의미하는 이진수 저장 
+     str[i]='\0';
+    
+     //인풋길이 반환    
+     return i;
       
 
 }
